@@ -1,0 +1,77 @@
+$widthDonut: 200px;
+$amountDonut: 30;
+
+@for $i from 1 through $amountDonut {
+  @keyframes donut-fly-#{$i} {
+    0% {
+      left: -$widthDonut;
+      top: random(90) + vh;
+    }
+    25% {
+      left: 20vw;
+      top: random(90) + vh;
+    }
+    50% {
+      left: 45vw;
+      top: random(90) + vh;
+    }
+    75% {
+      left: 70vw;
+      top: random(90) + vh;
+    }
+    100% {
+      left: 100vw;
+      top: random(90) + vh;
+    }
+  }
+}
+
+.body {
+  font-family: sans-serif;
+  counter-reset: count;
+  height: 100vh;
+  margin: 0;
+  background-image: url(/bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.donut {
+  position: absolute;
+  &__img {
+    width: $widthDonut;
+    filter: drop-shadow(-17px 9px 26px #e5d164);
+  }
+  &-check {
+    position: absolute;
+    visibility: hidden;
+    left: -999999px;
+    &:checked {
+      counter-increment: count;
+    }
+    &:checked ~ label {
+      display: none;
+    }
+  }
+
+  @for $i from 1 through $amountDonut {
+    &__#{$i} {
+      animation: donut-fly-#{$i} 7s ease-in #{$i}s both;
+    }
+  }
+}
+
+.counter-info {
+  color: rgb(199, 66, 145);
+  font-size: 70px;
+  position: absolute;
+  top: -14px;
+  right: 67px;
+
+  &::after {
+    content: counter(count);
+    font-size: 106px;
+    margin-left: 35px;
+  }
+}
