@@ -76,7 +76,17 @@ $amountDonut: 11;
   }
 }
 
+@keyframes show {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 .result__block {
+  display: flex;
   width: 30vw;
   height: 30vh;
   position: absolute;
@@ -85,12 +95,20 @@ $amountDonut: 11;
   background-color: rgb(277, 233, 183);
   border-radius: 9%;
   box-shadow: -1px -1px 20px 18px bisque;
-  display: flex;
+  opacity: 0;
+  animation: show 8s 1;
+  animation-delay: 15s;
 }
 
 .result__text {
+  text-shadow: 6px 5px #e9a0ad;
+  font-size: 79px;
+  color: #f9c5de;
   align-self: center;
-
-  justify-self: center;
+  text-align: center;
   margin: 0 auto;
+}
+
+.scores::after {
+  content: counter(count);
 }
