@@ -1,41 +1,41 @@
 @keyframes donut-fly-1 {
   0% {
     left: -200px;
-    top: 37vh;
+    top: 3vh;
   }
   25% {
     left: 20vw;
-    top: 26vh;
+    top: 41vh;
   }
   50% {
     left: 45vw;
-    top: 79vh;
+    top: 90vh;
   }
   75% {
     left: 70vw;
-    top: 33vh;
+    top: 27vh;
   }
   100% {
     left: 100vw;
-    top: 67vh;
+    top: 81vh;
   }
 }
 @keyframes donut-fly-2 {
   0% {
     left: -200px;
-    top: 80vh;
+    top: 12vh;
   }
   25% {
     left: 20vw;
-    top: 9vh;
+    top: 69vh;
   }
   50% {
     left: 45vw;
-    top: 70vh;
+    top: 86vh;
   }
   75% {
     left: 70vw;
-    top: 64vh;
+    top: 79vh;
   }
   100% {
     left: 100vw;
@@ -45,7 +45,139 @@
 @keyframes donut-fly-3 {
   0% {
     left: -200px;
-    top: 17vh;
+    top: 60vh;
+  }
+  25% {
+    left: 20vw;
+    top: 19vh;
+  }
+  50% {
+    left: 45vw;
+    top: 32vh;
+  }
+  75% {
+    left: 70vw;
+    top: 61vh;
+  }
+  100% {
+    left: 100vw;
+    top: 22vh;
+  }
+}
+@keyframes donut-fly-4 {
+  0% {
+    left: -200px;
+    top: 62vh;
+  }
+  25% {
+    left: 20vw;
+    top: 66vh;
+  }
+  50% {
+    left: 45vw;
+    top: 85vh;
+  }
+  75% {
+    left: 70vw;
+    top: 9vh;
+  }
+  100% {
+    left: 100vw;
+    top: 9vh;
+  }
+}
+@keyframes donut-fly-5 {
+  0% {
+    left: -200px;
+    top: 36vh;
+  }
+  25% {
+    left: 20vw;
+    top: 58vh;
+  }
+  50% {
+    left: 45vw;
+    top: 14vh;
+  }
+  75% {
+    left: 70vw;
+    top: 37vh;
+  }
+  100% {
+    left: 100vw;
+    top: 15vh;
+  }
+}
+@keyframes donut-fly-6 {
+  0% {
+    left: -200px;
+    top: 76vh;
+  }
+  25% {
+    left: 20vw;
+    top: 10vh;
+  }
+  50% {
+    left: 45vw;
+    top: 82vh;
+  }
+  75% {
+    left: 70vw;
+    top: 62vh;
+  }
+  100% {
+    left: 100vw;
+    top: 86vh;
+  }
+}
+@keyframes donut-fly-7 {
+  0% {
+    left: -200px;
+    top: 45vh;
+  }
+  25% {
+    left: 20vw;
+    top: 31vh;
+  }
+  50% {
+    left: 45vw;
+    top: 18vh;
+  }
+  75% {
+    left: 70vw;
+    top: 79vh;
+  }
+  100% {
+    left: 100vw;
+    top: 15vh;
+  }
+}
+@keyframes donut-fly-8 {
+  0% {
+    left: -200px;
+    top: 76vh;
+  }
+  25% {
+    left: 20vw;
+    top: 15vh;
+  }
+  50% {
+    left: 45vw;
+    top: 5vh;
+  }
+  75% {
+    left: 70vw;
+    top: 75vh;
+  }
+  100% {
+    left: 100vw;
+    top: 37vh;
+  }
+}
+@keyframes donut-fly-9 {
+  0% {
+    left: -200px;
+    top: 39vh;
   }
   25% {
     left: 20vw;
@@ -53,153 +185,21 @@
   }
   50% {
     left: 45vw;
-    top: 2vh;
+    top: 21vh;
   }
   75% {
     left: 70vw;
-    top: 37vh;
+    top: 81vh;
   }
   100% {
     left: 100vw;
-    top: 42vh;
-  }
-}
-@keyframes donut-fly-4 {
-  0% {
-    left: -200px;
-    top: 28vh;
-  }
-  25% {
-    left: 20vw;
-    top: 37vh;
-  }
-  50% {
-    left: 45vw;
-    top: 26vh;
-  }
-  75% {
-    left: 70vw;
-    top: 57vh;
-  }
-  100% {
-    left: 100vw;
-    top: 38vh;
-  }
-}
-@keyframes donut-fly-5 {
-  0% {
-    left: -200px;
-    top: 90vh;
-  }
-  25% {
-    left: 20vw;
-    top: 70vh;
-  }
-  50% {
-    left: 45vw;
-    top: 80vh;
-  }
-  75% {
-    left: 70vw;
-    top: 58vh;
-  }
-  100% {
-    left: 100vw;
-    top: 84vh;
-  }
-}
-@keyframes donut-fly-6 {
-  0% {
-    left: -200px;
-    top: 54vh;
-  }
-  25% {
-    left: 20vw;
-    top: 85vh;
-  }
-  50% {
-    left: 45vw;
-    top: 36vh;
-  }
-  75% {
-    left: 70vw;
-    top: 15vh;
-  }
-  100% {
-    left: 100vw;
-    top: 13vh;
-  }
-}
-@keyframes donut-fly-7 {
-  0% {
-    left: -200px;
-    top: 10vh;
-  }
-  25% {
-    left: 20vw;
-    top: 86vh;
-  }
-  50% {
-    left: 45vw;
     top: 12vh;
-  }
-  75% {
-    left: 70vw;
-    top: 36vh;
-  }
-  100% {
-    left: 100vw;
-    top: 66vh;
-  }
-}
-@keyframes donut-fly-8 {
-  0% {
-    left: -200px;
-    top: 19vh;
-  }
-  25% {
-    left: 20vw;
-    top: 3vh;
-  }
-  50% {
-    left: 45vw;
-    top: 55vh;
-  }
-  75% {
-    left: 70vw;
-    top: 63vh;
-  }
-  100% {
-    left: 100vw;
-    top: 65vh;
-  }
-}
-@keyframes donut-fly-9 {
-  0% {
-    left: -200px;
-    top: 20vh;
-  }
-  25% {
-    left: 20vw;
-    top: 69vh;
-  }
-  50% {
-    left: 45vw;
-    top: 10vh;
-  }
-  75% {
-    left: 70vw;
-    top: 1vh;
-  }
-  100% {
-    left: 100vw;
-    top: 86vh;
   }
 }
 @keyframes donut-fly-10 {
   0% {
     left: -200px;
-    top: 18vh;
+    top: 78vh;
   }
   25% {
     left: 20vw;
@@ -207,37 +207,37 @@
   }
   50% {
     left: 45vw;
-    top: 21vh;
+    top: 81vh;
   }
   75% {
     left: 70vw;
-    top: 43vh;
+    top: 61vh;
   }
   100% {
     left: 100vw;
-    top: 52vh;
+    top: 62vh;
   }
 }
 @keyframes donut-fly-11 {
   0% {
     left: -200px;
-    top: 32vh;
+    top: 85vh;
   }
   25% {
     left: 20vw;
-    top: 85vh;
+    top: 2vh;
   }
   50% {
     left: 45vw;
-    top: 74vh;
+    top: 58vh;
   }
   75% {
     left: 70vw;
-    top: 15vh;
+    top: 45vh;
   }
   100% {
     left: 100vw;
-    top: 77vh;
+    top: 51vh;
   }
 }
 .body {
@@ -253,6 +253,17 @@
 
 .donut {
   position: absolute;
+  display: block;
+  display: block;
+  display: block;
+  display: block;
+  display: block;
+  display: block;
+  display: block;
+  display: block;
+  display: block;
+  display: block;
+  display: block;
 }
 .donut__img {
   width: 200px;
@@ -327,7 +338,7 @@
 .result__block {
   display: flex;
   width: 30vw;
-  height: 30vh;
+  height: 40vh;
   position: absolute;
   top: 35%;
   left: 35%;
