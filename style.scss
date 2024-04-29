@@ -1,5 +1,5 @@
 $widthDonut: 200px;
-$amountDonut: 30;
+$amountDonut: 11;
 
 @for $i from 1 through $amountDonut {
   @keyframes donut-fly-#{$i} {
@@ -33,7 +33,7 @@ $amountDonut: 30;
   margin: 0;
   background-image: url(/bg.jpg);
   background-size: cover;
-  background-position: center;
+  background-position: top;
   background-repeat: no-repeat;
 }
 
@@ -74,4 +74,23 @@ $amountDonut: 30;
     font-size: 106px;
     margin-left: 35px;
   }
+}
+
+.result__block {
+  width: 30vw;
+  height: 30vh;
+  position: absolute;
+  top: 35%;
+  left: 35%;
+  background-color: rgb(277, 233, 183);
+  border-radius: 9%;
+  box-shadow: -1px -1px 20px 18px bisque;
+  display: flex;
+}
+
+.result__text {
+  align-self: center;
+
+  justify-self: center;
+  margin: 0 auto;
 }
