@@ -1,15 +1,59 @@
 @keyframes donut-fly-1 {
   0% {
     left: -200px;
-    top: 68vh;
+    top: 32vh;
   }
   25% {
     left: 20vw;
-    top: 79vh;
+    top: 4vh;
   }
   50% {
     left: 45vw;
-    top: 12vh;
+    top: 48vh;
+  }
+  75% {
+    left: 70vw;
+    top: 52vh;
+  }
+  100% {
+    left: 100vw;
+    top: 52vh;
+  }
+}
+@keyframes donut-fly-2 {
+  0% {
+    left: -200px;
+    top: 37vh;
+  }
+  25% {
+    left: 20vw;
+    top: 78vh;
+  }
+  50% {
+    left: 45vw;
+    top: 83vh;
+  }
+  75% {
+    left: 70vw;
+    top: 13vh;
+  }
+  100% {
+    left: 100vw;
+    top: 40vh;
+  }
+}
+@keyframes donut-fly-3 {
+  0% {
+    left: -200px;
+    top: 13vh;
+  }
+  25% {
+    left: 20vw;
+    top: 15vh;
+  }
+  50% {
+    left: 45vw;
+    top: 4vh;
   }
   75% {
     left: 70vw;
@@ -17,175 +61,131 @@
   }
   100% {
     left: 100vw;
-    top: 47vh;
-  }
-}
-@keyframes donut-fly-2 {
-  0% {
-    left: -200px;
-    top: 62vh;
-  }
-  25% {
-    left: 20vw;
-    top: 25vh;
-  }
-  50% {
-    left: 45vw;
-    top: 59vh;
-  }
-  75% {
-    left: 70vw;
-    top: 6vh;
-  }
-  100% {
-    left: 100vw;
-    top: 85vh;
-  }
-}
-@keyframes donut-fly-3 {
-  0% {
-    left: -200px;
-    top: 1vh;
-  }
-  25% {
-    left: 20vw;
-    top: 9vh;
-  }
-  50% {
-    left: 45vw;
     top: 42vh;
-  }
-  75% {
-    left: 70vw;
-    top: 74vh;
-  }
-  100% {
-    left: 100vw;
-    top: 78vh;
   }
 }
 @keyframes donut-fly-4 {
   0% {
     left: -200px;
-    top: 10vh;
+    top: 47vh;
   }
   25% {
     left: 20vw;
-    top: 27vh;
+    top: 67vh;
   }
   50% {
     left: 45vw;
-    top: 41vh;
+    top: 30vh;
   }
   75% {
     left: 70vw;
-    top: 47vh;
+    top: 67vh;
   }
   100% {
     left: 100vw;
-    top: 26vh;
+    top: 18vh;
   }
 }
 @keyframes donut-fly-5 {
   0% {
     left: -200px;
-    top: 30vh;
+    top: 47vh;
   }
   25% {
     left: 20vw;
-    top: 76vh;
+    top: 13vh;
   }
   50% {
     left: 45vw;
-    top: 82vh;
+    top: 59vh;
   }
   75% {
     left: 70vw;
-    top: 84vh;
+    top: 78vh;
   }
   100% {
     left: 100vw;
-    top: 53vh;
+    top: 89vh;
   }
 }
 @keyframes donut-fly-6 {
   0% {
     left: -200px;
-    top: 59vh;
+    top: 88vh;
   }
   25% {
     left: 20vw;
-    top: 31vh;
+    top: 1vh;
   }
   50% {
     left: 45vw;
-    top: 11vh;
+    top: 78vh;
   }
   75% {
     left: 70vw;
-    top: 26vh;
+    top: 49vh;
   }
   100% {
     left: 100vw;
-    top: 37vh;
+    top: 30vh;
   }
 }
 @keyframes donut-fly-7 {
   0% {
     left: -200px;
-    top: 33vh;
+    top: 24vh;
   }
   25% {
     left: 20vw;
-    top: 44vh;
+    top: 15vh;
   }
   50% {
     left: 45vw;
-    top: 52vh;
+    top: 2vh;
   }
   75% {
     left: 70vw;
-    top: 77vh;
+    top: 86vh;
   }
   100% {
     left: 100vw;
-    top: 43vh;
+    top: 32vh;
   }
 }
 @keyframes donut-fly-8 {
   0% {
     left: -200px;
-    top: 67vh;
+    top: 50vh;
   }
   25% {
     left: 20vw;
-    top: 22vh;
+    top: 78vh;
   }
   50% {
     left: 45vw;
-    top: 34vh;
+    top: 62vh;
   }
   75% {
     left: 70vw;
-    top: 17vh;
+    top: 9vh;
   }
   100% {
     left: 100vw;
-    top: 85vh;
+    top: 90vh;
   }
 }
 @keyframes donut-fly-9 {
   0% {
     left: -200px;
-    top: 7vh;
+    top: 43vh;
   }
   25% {
     left: 20vw;
-    top: 87vh;
+    top: 81vh;
   }
   50% {
     left: 45vw;
-    top: 45vh;
+    top: 74vh;
   }
   75% {
     left: 70vw;
@@ -193,17 +193,39 @@
   }
   100% {
     left: 100vw;
-    top: 7vh;
+    top: 2vh;
   }
 }
 @keyframes donut-fly-10 {
   0% {
     left: -200px;
-    top: 23vh;
+    top: 39vh;
   }
   25% {
     left: 20vw;
-    top: 49vh;
+    top: 13vh;
+  }
+  50% {
+    left: 45vw;
+    top: 3vh;
+  }
+  75% {
+    left: 70vw;
+    top: 84vh;
+  }
+  100% {
+    left: 100vw;
+    top: 19vh;
+  }
+}
+@keyframes donut-fly-11 {
+  0% {
+    left: -200px;
+    top: 63vh;
+  }
+  25% {
+    left: 20vw;
+    top: 44vh;
   }
   50% {
     left: 45vw;
@@ -211,33 +233,11 @@
   }
   75% {
     left: 70vw;
-    top: 33vh;
+    top: 51vh;
   }
   100% {
     left: 100vw;
     top: 51vh;
-  }
-}
-@keyframes donut-fly-11 {
-  0% {
-    left: -200px;
-    top: 79vh;
-  }
-  25% {
-    left: 20vw;
-    top: 16vh;
-  }
-  50% {
-    left: 45vw;
-    top: 26vh;
-  }
-  75% {
-    left: 70vw;
-    top: 32vh;
-  }
-  100% {
-    left: 100vw;
-    top: 49vh;
   }
 }
 .body {
@@ -338,7 +338,7 @@
 .result__block {
   display: flex;
   width: 30vw;
-  height: 40vh;
+  height: 50vh;
   position: absolute;
   top: 35%;
   left: 35%;
