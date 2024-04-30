@@ -1,121 +1,99 @@
 @keyframes donut-fly-1 {
   0% {
     left: -200px;
-    top: 3vh;
+    top: 68vh;
   }
   25% {
     left: 20vw;
-    top: 41vh;
+    top: 79vh;
   }
   50% {
     left: 45vw;
-    top: 90vh;
+    top: 12vh;
   }
   75% {
     left: 70vw;
-    top: 27vh;
+    top: 38vh;
   }
   100% {
     left: 100vw;
-    top: 81vh;
+    top: 47vh;
   }
 }
 @keyframes donut-fly-2 {
-  0% {
-    left: -200px;
-    top: 12vh;
-  }
-  25% {
-    left: 20vw;
-    top: 69vh;
-  }
-  50% {
-    left: 45vw;
-    top: 86vh;
-  }
-  75% {
-    left: 70vw;
-    top: 79vh;
-  }
-  100% {
-    left: 100vw;
-    top: 57vh;
-  }
-}
-@keyframes donut-fly-3 {
-  0% {
-    left: -200px;
-    top: 60vh;
-  }
-  25% {
-    left: 20vw;
-    top: 19vh;
-  }
-  50% {
-    left: 45vw;
-    top: 32vh;
-  }
-  75% {
-    left: 70vw;
-    top: 61vh;
-  }
-  100% {
-    left: 100vw;
-    top: 22vh;
-  }
-}
-@keyframes donut-fly-4 {
   0% {
     left: -200px;
     top: 62vh;
   }
   25% {
     left: 20vw;
-    top: 66vh;
+    top: 25vh;
   }
   50% {
     left: 45vw;
-    top: 85vh;
+    top: 59vh;
   }
   75% {
     left: 70vw;
-    top: 9vh;
+    top: 6vh;
   }
   100% {
     left: 100vw;
+    top: 85vh;
+  }
+}
+@keyframes donut-fly-3 {
+  0% {
+    left: -200px;
+    top: 1vh;
+  }
+  25% {
+    left: 20vw;
     top: 9vh;
+  }
+  50% {
+    left: 45vw;
+    top: 42vh;
+  }
+  75% {
+    left: 70vw;
+    top: 74vh;
+  }
+  100% {
+    left: 100vw;
+    top: 78vh;
+  }
+}
+@keyframes donut-fly-4 {
+  0% {
+    left: -200px;
+    top: 10vh;
+  }
+  25% {
+    left: 20vw;
+    top: 27vh;
+  }
+  50% {
+    left: 45vw;
+    top: 41vh;
+  }
+  75% {
+    left: 70vw;
+    top: 47vh;
+  }
+  100% {
+    left: 100vw;
+    top: 26vh;
   }
 }
 @keyframes donut-fly-5 {
   0% {
     left: -200px;
-    top: 36vh;
+    top: 30vh;
   }
   25% {
     left: 20vw;
-    top: 58vh;
-  }
-  50% {
-    left: 45vw;
-    top: 14vh;
-  }
-  75% {
-    left: 70vw;
-    top: 37vh;
-  }
-  100% {
-    left: 100vw;
-    top: 15vh;
-  }
-}
-@keyframes donut-fly-6 {
-  0% {
-    left: -200px;
     top: 76vh;
-  }
-  25% {
-    left: 20vw;
-    top: 10vh;
   }
   50% {
     left: 45vw;
@@ -123,17 +101,17 @@
   }
   75% {
     left: 70vw;
-    top: 62vh;
+    top: 84vh;
   }
   100% {
     left: 100vw;
-    top: 86vh;
+    top: 53vh;
   }
 }
-@keyframes donut-fly-7 {
+@keyframes donut-fly-6 {
   0% {
     left: -200px;
-    top: 45vh;
+    top: 59vh;
   }
   25% {
     left: 20vw;
@@ -141,103 +119,125 @@
   }
   50% {
     left: 45vw;
-    top: 18vh;
+    top: 11vh;
   }
   75% {
     left: 70vw;
-    top: 79vh;
-  }
-  100% {
-    left: 100vw;
-    top: 15vh;
-  }
-}
-@keyframes donut-fly-8 {
-  0% {
-    left: -200px;
-    top: 76vh;
-  }
-  25% {
-    left: 20vw;
-    top: 15vh;
-  }
-  50% {
-    left: 45vw;
-    top: 5vh;
-  }
-  75% {
-    left: 70vw;
-    top: 75vh;
+    top: 26vh;
   }
   100% {
     left: 100vw;
     top: 37vh;
   }
 }
-@keyframes donut-fly-9 {
+@keyframes donut-fly-7 {
   0% {
     left: -200px;
-    top: 39vh;
+    top: 33vh;
   }
   25% {
     left: 20vw;
-    top: 6vh;
+    top: 44vh;
   }
   50% {
     left: 45vw;
-    top: 21vh;
+    top: 52vh;
   }
   75% {
     left: 70vw;
-    top: 81vh;
+    top: 77vh;
   }
   100% {
     left: 100vw;
-    top: 12vh;
+    top: 43vh;
+  }
+}
+@keyframes donut-fly-8 {
+  0% {
+    left: -200px;
+    top: 67vh;
+  }
+  25% {
+    left: 20vw;
+    top: 22vh;
+  }
+  50% {
+    left: 45vw;
+    top: 34vh;
+  }
+  75% {
+    left: 70vw;
+    top: 17vh;
+  }
+  100% {
+    left: 100vw;
+    top: 85vh;
+  }
+}
+@keyframes donut-fly-9 {
+  0% {
+    left: -200px;
+    top: 7vh;
+  }
+  25% {
+    left: 20vw;
+    top: 87vh;
+  }
+  50% {
+    left: 45vw;
+    top: 45vh;
+  }
+  75% {
+    left: 70vw;
+    top: 3vh;
+  }
+  100% {
+    left: 100vw;
+    top: 7vh;
   }
 }
 @keyframes donut-fly-10 {
   0% {
     left: -200px;
-    top: 78vh;
+    top: 23vh;
   }
   25% {
     left: 20vw;
-    top: 17vh;
+    top: 49vh;
   }
   50% {
     left: 45vw;
-    top: 81vh;
+    top: 60vh;
   }
   75% {
     left: 70vw;
-    top: 61vh;
+    top: 33vh;
   }
   100% {
     left: 100vw;
-    top: 62vh;
+    top: 51vh;
   }
 }
 @keyframes donut-fly-11 {
   0% {
     left: -200px;
-    top: 85vh;
+    top: 79vh;
   }
   25% {
     left: 20vw;
-    top: 2vh;
+    top: 16vh;
   }
   50% {
     left: 45vw;
-    top: 58vh;
+    top: 26vh;
   }
   75% {
     left: 70vw;
-    top: 45vh;
+    top: 32vh;
   }
   100% {
     left: 100vw;
-    top: 51vh;
+    top: 49vh;
   }
 }
 .body {
@@ -245,7 +245,7 @@
   counter-reset: count;
   height: 100vh;
   margin: 0;
-  background-image: url(/bg.jpg);
+  background-image: url(../bg.jpg);
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
