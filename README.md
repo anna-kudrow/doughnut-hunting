@@ -9,5 +9,4 @@
 <h2>How to play.</h2>
 <p>Click moving doughnuts to catch them and earn scores.</p>
 
-
-
+<h2>Demo: https://anna-kudrow.github.io/doughnut-hunting/</h2>
